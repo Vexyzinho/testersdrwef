@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <style>
+      .button {
+        background-color: #252525; /* Green */
+        border: red;
+        mask-border-width: 1;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .button1 {border-radius: 2px;}
+      .button2 {border-radius: 4px;}
+      .button3 {border-radius: 8px;}
+      .button4 {border-radius: 12px;}
+      .button5 {border-radius: 50%;}
+      </style>
+      
+      
+     
+    <div class="card rgb">
+      <div class="card-image card2"></div>
+      <div class="card-text card2">
+        <span class="category">Exploit</span>
+        <h2>Atlas X</h2>
+        <p>Just a test.</p>
+        <button class="btn btn2">Download Atlas X</button>
+        
+      </div>
+    </div>
+        
+    
+    
+        
+ 
+    
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"),{
+        glare: true,
+        reverse: true,
+        "max-glare": 0.15
+      });
+    </script>
+  </body>
+</html>
